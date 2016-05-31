@@ -1,0 +1,121 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #433c34;
+	color: white;
+	font-family: Helvetica;
+}
+
+.title {
+	float: left;
+	margin-left: 100px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.options {
+	float:right;
+	margin-right: 150px;
+	font-size: 13px;
+	word-spacing: 20px;
+}
+
+.logo img {
+	width: 1100px;
+	padding-top: 30px;
+}
+
+.admiss {
+	margin-left: 470px;
+	font-size: 18px;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.plus img {
+	width: 1100px;
+}
+
+.laptop img {
+	width: 1100px;
+	padding-bottom: 40px;
+}
+
+.footer-main {
+	background-color: white;
+}
+
+.clients {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 35px;
+	color: black;
+	font-size: 20px;
+}
+
+.footer-body {
+	background-color: #8ef5cc;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.motto {
+	font-size: 18px;
+	margin-left: 300px;
+	padding-bottom: 20px;
+}
+
+.button {
+	font-size: 14px;
+	margin-left: 550px;
+	border: 1px solid white;
+}
+
+.footer-header {
+	background-color: #ebebeb;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.belancio {
+	float: left;
+	margin-left: 100px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: black;
+}
+
+.options2 {
+	float:right;
+	margin-right: 150px;
+	font-size: 10px;
+	word-spacing: 20px;
+	color: black;
+}
+
+.footer-credit {
+	background-color: white;
+	color: black;
+	font-size: 12px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.california {
+	margin-left: 30px;
+}
+
+.heart {
+	color: red;
+}
+
+.credit {
+	float:right;
+	margin-right: 150px;
+}
+
+
+
+
+
+
