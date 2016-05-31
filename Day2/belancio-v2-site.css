@@ -69,6 +69,8 @@ body {
 	font-size: 14px;
 	margin-left: 550px;
 	border: 1px solid white;
+	width: 125px;
+	text-align: center;
 }
 
 .footer-header {
