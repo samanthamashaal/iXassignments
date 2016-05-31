@@ -1,0 +1,117 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.searchbar {
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.logo {
+	display: inline-block;
+	width: 120px;
+	margin-left: 30px;
+}
+
+.options {
+	display: inline-block;
+	font-size: 16px;
+	font-family: sans-serif;
+	margin-left: 150px;
+}
+
+.bar {
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.cart {
+	display: inline-block;
+	width: 200px;
+}
+
+.main {
+	align: center;
+	width: 1200px;
+}
+
+.info {
+	background-color: #222222;
+	font-family: sans-serif;
+	color: darkgrey;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	align: center;
+}
+
+span {
+	color: orange;
+}
+
+.Directions {
+	display: inline-block;
+	width: 20%;
+}
+
+.Opening {
+	display: inline-block;
+	width: 20%;
+}
+
+.Follow {
+	display: inline-block;
+	width: 20%;
+}
+
+.followimage img {
+	width: 100%;
+}
+
+.instagram {
+	display: inline-block;
+	width: 20%;
+}
+
+.instagram img {
+	width: 100%;
+}
+
+
+
+
+.details {
+	display: inline-block;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.follow {
+	width: 100px
+}
+
+.insta {
+	width: 100px;
+}
+
+.credit {
+	border-top: 1px solid grey;
+	color: darkgrey;
+	background-color: #222222;
+	font-family: Arial;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	width:100%;
+}
+
+.copy {
+	display: inline-block;
+}
+
+}
+

@@ -6,6 +6,10 @@ body {
 	font-family: Helvetica;
 }
 
+.header{
+	margin-top: 20px;
+}
+
 .title {
 	float: left;
 	margin-left: 100px;
@@ -26,7 +30,7 @@ body {
 }
 
 .admiss {
-	margin-left: 470px;
+	margin-left: 480px;
 	font-size: 18px;
 	padding-top:20px;
 	padding-bottom: 20px;
@@ -45,6 +49,11 @@ body {
 	background-color: white;
 }
 
+.brands {
+	display: inline-block;
+	width: 100%;
+}
+
 .clients {
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -55,22 +64,23 @@ body {
 
 .footer-body {
 	background-color: #8ef5cc;
-	padding-top: 30px;
-	padding-bottom: 40px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .motto {
-	font-size: 18px;
+	font-size: 20px;
 	margin-left: 300px;
 	padding-bottom: 20px;
 }
 
 .button {
 	font-size: 14px;
-	margin-left: 550px;
+	margin-left: 500px;
 	border: 1px solid white;
 	width: 125px;
 	text-align: center;
+	padding: 20px;
 }
 
 .footer-header {
