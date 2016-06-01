@@ -1,0 +1,77 @@
+body{
+	padding: 0;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+
+.Animate {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size:95px;
+  	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-weight:100;
+  	 background: -webkit-linear-gradient(#ff3399, #9900ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subhead {
+	font-size:25px;
+  	font-family:Arial, sans-serif;
+  	font-weight:100;
+  	color: grey;
+  	padding-bottom: 60px;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.box1{
+	float: left;
+	margin-left: 36%;
+	border: 1px solid grey;
+	padding: 12px;
+	width: 150px;
+	text-align: left;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.box2{
+	float: right;
+	margin-right: 35% ;
+	border: 3px solid #ff3399;
+	height: 20% ;
+	width: 10%;
+	padding: 10px;
+	display: inline-block;
+	border-color: #ff3399;
+	color: #ff3399;
+	border-radius: 8px;
+}
+
+.bottombox {
+	padding-top: 60px;
+}
+
+.line{
+	margin-top: 80px;
+}
+
+.line1 {
+	margin-top: -30px;
+	padding-bottom: 20px;
+	font-style: sans-serif;
+	font-size: 16px;
+	color: grey;
+}
+
+.line2 {
+	font-family: Helvetica;
+	font-weight:100;
+	font-size: 12px;
+	color: black;
+}
+
