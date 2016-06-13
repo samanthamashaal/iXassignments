@@ -12,7 +12,7 @@ $(document).on('mousemove', function(e){
 
 var color = $(document).keypress(function(e){
    if (e.keyCode === 103) {  //checks whether the pressed key is "G"
-       $("#body").css({"background-color": "green"})
+       $("#body").css({"background-color": "green"}) //background turns green when G key is pressed
    }
 });
 
