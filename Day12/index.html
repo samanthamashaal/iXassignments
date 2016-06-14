@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Redoing ToDo List with Angular</title>
+	 <link rel="stylesheet" href="./angular-todo.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="./angular-todo.js"></script>
+</head>
+<body ng-app="ToDoApp" ng-controller="MainCtrl">
+	<div class="container"></div>
+		<div class="row">
+	      <div class="col-md-6 col-md-offset-3">
+	        <div class="wrapper">
+	          <h1>Smash's Angular To Do list</h1>
+	          <form ng-submit="addItem()">
+	            <input type="text" class="form-control" ng-model="newItem">
+	          </form>
+	          <ol>
+	            <li ng-repeat="item in items">{{item}}</li>
+	          </ol>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</body>
+	</html>
