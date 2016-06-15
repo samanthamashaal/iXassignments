@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Validation</title>
+	 <link rel="stylesheet" href="./formvalidation-hw-style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="./formvalidation-hw.js"></script>
+</head>
+<body ng-app="FormApp" ng-controller="FormCtrl">
+<h1 ng-show="submitForm"> Welcome, {{name}} ! </h1>
+<form ng-submit="checkInputs()" ng-hide="submitForm">
+	<h1>Form Validation</h1>
+	<div>{{Validation}}</div>
+ 	<div>
+ 		Name: 
+ 	</div>
+ 	<div>
+ 		<input type="text" class="form-control" ng-model="name"> {{Validations.name}}
+ 	</div>
+ 	<div>
+ 		Phone Number: (xxx-xxx-xxxx)
+ 	</div>
+ 	<div>
+ 		<input type="text" class="form-control" ng-model="number"> {{Validations.number}}
+ 	</div>
+ 	<div>
+ 		E-mail: 
+ 	</div>
+ 	<div>
+ 		<input type="text" class="form-control" ng-model="email"> {{Validations.email}}
+ 	</div>
+ 	<div>
+ 		Password: (6 Characters Minimum)
+ 	</div>
+ 	<div>
+ 		<input type="text" class="form-control" ng-model="password"> {{Validations.password}}
+ 	</div>
+ 	<div>
+ 		Password Verification:
+ 	</div>
+ 	<div>
+ 		<input type="text" class="form-control" ng-model="passcheck"> {{Validations.passcheck}}
+ 	</div>
+ 	<div>
+ 		<button type="submit">Submit Form</button>
+	</div>    
+</form>	      
+</body>
+</html>

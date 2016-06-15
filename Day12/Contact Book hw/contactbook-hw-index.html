@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Book</title>
+
+	<!-- Link for CSS -->
+	<link rel="stylesheet" href="./contactbook-hw-style.css">
+
+	<!-- Link for Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+	<!-- Link for my JS -->
+	<script src="./contactbook-hw.js"></script>
+
+</head>
+<body ng-app="ContactBook" ng-controller="MainCtrl">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="wrapper">
+          <h1>My Contact Book &#9786;</h1>
+          <div class="display" ng-repeat="validation in validations">
+            {{validation}}
+          </div>
+          <div ng-show="count===2" ng-model="thanks">
+            {{thanks}}
+          </div>
+          <form ng-submit="addContact()">
+            Name: 
+            <input type="text" placeholder="Name" class="form-control" ng-model="name">
+            Phone Number: (xxx-xxx-xxxx)
+            <input type="text" placeholder="XXX-XXX-XXXX" class="form-control" ng-model="number">
+          </form>
+          <button ng-click="addContact()" ng-hide="count===10">Submit</button>
+          <br>
+          Search: <input type="text" placeholder="Search for contact" name="search" ng-model="searchBox">
+          <ul class="unstyled">
+            <li ng-repeat="allContact in allContacts | filter: searchBox">{{allContact}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

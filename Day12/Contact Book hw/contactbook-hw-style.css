@@ -1,0 +1,18 @@
+body {
+	font-family: helvetica;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+.container {
+	margin-left: 200px;
+	margin-top: 40px;
+}
+
+button {
+	background-color: skyblue;
+	padding: 5px;
+	margin: 20px;
+}

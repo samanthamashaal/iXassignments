@@ -8,7 +8,7 @@
 	<script src="./angular-todo.js"></script>
 </head>
 <body ng-app="ToDoApp" ng-controller="MainCtrl">
-	<div class="container"></div>
+	<div class="container">
 		<div class="row">
 	      <div class="col-md-6 col-md-offset-3">
 	        <div class="wrapper">
@@ -17,11 +17,11 @@
 	            <input type="text" class="form-control" ng-model="newItem">
 	          </form>
 	          <ol>
-	            <li ng-repeat="item in items">{{item}}</li>
+	            <li ng-repeat="item in items track by $index">{{item}}</li>
 	          </ol>
 	        </div>
 	      </div>
 	    </div>
-	  </div>
-	</body>
-	</html>
+	 </div>
+</body>
+</html>

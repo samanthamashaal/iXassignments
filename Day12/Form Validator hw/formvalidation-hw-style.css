@@ -1,0 +1,14 @@
+body {
+  text-align: left;
+  background-color: #E6E6FA;
+  font-size: 18px;
+}
+
+div {
+	padding: 5px;
+}
+
+h1 {
+	color: #9400D3;
+	font-size: 35px;
+}

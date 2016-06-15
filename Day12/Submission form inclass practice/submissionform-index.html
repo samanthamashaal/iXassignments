@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Form</title>
+	 <link rel="stylesheet" href="./submissionform-style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="./submissionform.js"></script>
+</head>
+<body ng-app="FormApp" ng-controller="FormCtrl">
+	<!-- <div class="container">
+		<div class="row">
+	      <div class="col-md-6 col-md-offset-3">
+	        <div class="wrapper"> -->
+	          <h1>Group Angular Form</h1>
+	          <!-- <form ng-submit="addItem()"> -->
+	          <button ng-click="checkInputs()">Submit</button>
+	            <input type="text" class="form-control" ng-model="input1">
+	            <!-- <p> you typed: {{inputText}}</p> -->
+	            <input type="text" class="form-control" ng-model="input2">
+	        <!--   </form> -->
+	         <!--  <ol> -->
+	         <!--   <li ng-repeat="item in items track by $index">{{item}}</li>
+	          </ol> -->
+	        <!-- </div>
+	      </div>
+	    </div>
+	 </div> -->
+</body>
+</html>
