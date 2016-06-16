@@ -1,0 +1,27 @@
+<div ng-controller="FeedCtrl">
+  <h2>The Props Feed</h2>
+  <a href="#/me">View my props</a>
+  <p class="warning" ng-model="error">{{error}}</p>
+  <p class="warning" ng-hide="fail">Oops! Your forgot to pick the recipient you wish to props!</p>
+  <textarea class="form-control" placeholder="Type something positive here :)" ng-model="newProp.text"></textarea>
+  <div class="row">
+    <div class="col-md-4">
+      <select ng-model="newProp.receiver" ng-options="bru as bru.first_name for bru in brus" class="form-control"></select>
+    </div>
+    <div class="col-md-4">
+      <div class="btn btn-info" ng-click="addProp()">Validate and send!</div>
+    </div>
+  </div>
+
+  <div class="props-feed">
+    <button class="btn btn-info" ng-click="loadData()" class="navbar-brand">Refresh Feed!</button>
+    <br>
+    <div class="prop" ng-repeat="prop in props">
+      <small>@: {{prop.receiver.first_name}}</small>
+      <div>
+        <p>{{prop.text}}</p>
+      </div>
+        <small>Positivity: {{prop.positivity_score}}</small>
+    </div>
+  </div>
+</div>
