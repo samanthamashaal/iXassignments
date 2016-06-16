@@ -17,11 +17,11 @@
     <button class="btn btn-info" ng-click="loadData()" class="navbar-brand">Refresh Feed!</button>
     <br>
     <div class="prop" ng-repeat="prop in props">
-      <small>@: {{prop.receiver.first_name}}</small>
+      <small class="sendr">@: {{prop.receiver.first_name}}</small>
       <div>
         <p>{{prop.text}}</p>
       </div>
-        <small>Positivity: {{prop.positivity_score}}</small>
+        <small class="pos">Positivity: {{prop.positivity_score}}</small>
     </div>
   </div>
 </div>

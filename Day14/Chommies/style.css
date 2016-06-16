@@ -11,3 +11,17 @@
 .warning{
 	color: red;
 }
+
+.prop {
+	font-size: 20px;
+}
+
+.pos {
+	color: green;
+	font-size: 14px;
+}
+
+.sendr {
+	color: hotpink;
+
+}
