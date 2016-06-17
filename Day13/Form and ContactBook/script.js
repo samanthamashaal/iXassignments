@@ -12,9 +12,8 @@ app.config(function($routeProvider) {
 
 
 // FORM VALIDATION JS
-var app = angular.module("FormApp", []);
 
-app.controller("FormCtrl", function($scope){
+app.controller("FormCtrl", function($scope, $location){
 
     $scope.checkInputs = function () {
         $scope.Validations={ };
@@ -46,6 +45,10 @@ app.controller("FormCtrl", function($scope){
             $scope.Validations.passcheck = "Verify that your passwords match";
             $scope.submitForm = false;
         }
+        if ($scope.submitForm) {
+            $location.path("/contactroute");
+        }
+
     }
 
 var isValidPhone = function (number) {
@@ -95,11 +98,7 @@ var isValidPassword = function (pass) {
 });
 
 
-
-
 // CONTACTBOOK JS
-var app = angular.module("ContactBook", []); // Do not forget the empty array.
-
 app.controller("MainCtrl", function($scope) {
   $scope.allContacts = [];
   $scope.addContact = function () {
